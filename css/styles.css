@@ -246,7 +246,6 @@ body{
   text-align: center;
   background-color: whitesmoke;
 }
-
 .process h2{
   font-size: 30px;
   color: #16325b;
@@ -265,10 +264,11 @@ body{
  font-weight: bold;
  padding-bottom: 50px;
 }
+
 .process-img img,
 .progress-img img{
   width: 100%;
-  margin-top: 75px;
+  margin-top: 275px;
 }
 
 .process-steps,
@@ -280,7 +280,7 @@ body{
    text-align: left;
  }
 
- .process-steps{
+  .process-steps{
    padding-left: 200px;
  }
    
@@ -487,11 +487,10 @@ hr{
     
     .links{
       background-color: white;
-      /* height: 1000vh; */
+      height: 100%;
     }
     .nav.responsive{
-      min-height: 100%;
-       /* background-color: white; */
+        background-color: white;
         position: relative;
     }
 
@@ -507,7 +506,7 @@ hr{
       text-align: left;
     }
 
-    .nav.responsive a:not(.icon){
+    .nav.responsive a{
       color: #16325b;
       padding-left: 20px;
       line-height: 30px;
@@ -520,12 +519,10 @@ hr{
       width: 90%;
       text-align: center;
       margin: 0 auto;
-      margin-top: 50px;
-      /* margin-bottom: 50px; */
+      margin-top: 31px;
+      margin-bottom: 50px;
       background-color: #16325b;
     }
-
-
 
     .nav img{
       margin: 0;
@@ -536,7 +533,7 @@ hr{
 
 
 /* hero */
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1119px) {
     .hero1,
     .left,
     .right,
