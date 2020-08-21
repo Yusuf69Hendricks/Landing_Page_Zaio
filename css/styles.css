@@ -398,6 +398,52 @@ hr{
 }
 /* SCHEDULE END  */
 
+/* FOOTER START  */
+#footer{
+  width: 100%;
+  min-height: 350px;
+
+}
+
+#footer-img{
+  background-image: url(https://d33wubrfki0l68.cloudfront.net/d878614d97021fdeea6d1059797901a56ac871d8/bfc03/_next/static/images/footer-bg-552708bc98446e2327640a16897ccc19.png);
+  height: 350px;
+  width: 50%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  margin: 0 auto;
+  margin-top: 50px;
+  
+}
+
+.footer{
+  text-align: center;
+}
+.footer img{
+  width: 130px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.footer-nav{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-right: 25px;
+  font-weight: bold;
+}
+
+.footer p{
+  text-align: center;
+  color: white;
+}
+/* FOOTER END  */
+
 /* MEDIA QUERIES START */
 @media screen and (max-width: 991px) {
     .nav a:not(:first-child) {display: none;}
@@ -491,6 +537,13 @@ hr{
     }
     .progress-info br{
       display: none;
+    }
+
+    .footer a{
+      display: block;
+      padding: 0;
+      line-height: 25px;
+
     }
 
     .hero2{
