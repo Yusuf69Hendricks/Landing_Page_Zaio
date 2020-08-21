@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Landing Page Zaio</title>
 </head>
 <body>
@@ -28,18 +29,16 @@
     <!-- HERO IMAGE START -->
     <section>
     <div class="h-row">
-        <div class="hero1">
+        <div class="hero1" data-aos="fade-up" data-aos-delay="300">
           <h1>Tap into technical talent like never before</h1>
           <p>Whether you’re hiring or upskilling your team, we’re here to develop talent specific to your goals. How do we do that?</p>
           <button onclick="document.location='www.google.com'" >Learn More</button>
         </div>
-        <div class="hero2">
+        <div class="hero2" data-aos="fade-up" data-aos-delay="600">
           <img src="https://d33wubrfki0l68.cloudfront.net/2c2cd601472d72f605146a0680f7157d2fadc9f9/d5590/_next/static/images/banner11-871cb952a3c49bd532ded05d9d72fa64.png" alt="" srcset="" >
         </div>
       </div>
     </section>
-
-    
     <!-- HERO IMAGE END -->
 
     <!-- ABOUT START -->
@@ -52,22 +51,40 @@
             
             <div class="description left">
                 <img src="/images/pot.svg" alt="" srcset="">
-                <h2>Pipeline Of Talent</h2>
-                <p>Select from a pool of young developers that are used to a team-orientated and deadline-driven environment as they develop your company’s current and future digital strategy</p>
+                <h3>Pipeline Of Talent</h3>
+                <p>Select from a pool of young developers <br> that are used to a team-orientated  and <br>deadline-driven environment as they <br>develop your company’s current and <br>future digital strategy</p>
               </div>
               <div class="description middle">
                 <img src="/images/Deyr.svg" alt="" srcset="">
-                <h2>De-Risk Your Recruitment</h2>
-                <p>Save time & money by selecting the developers that are a perfect match for your company’s culture and its digital needs</p>
+                <h3>De-Risk Your Recruitment</h3>
+                <p>Save time & money by selecting the <br> developers that are a perfect match for <br> your company’s culture and its digital <br>needs</p>
               </div>
               <div class="description right">
                 <img src="/images/Hwrt.svg" alt="" srcset="">
-                <h2>Hire Workplace Ready Talent</h2>
-                <p>Enjoy the immediate productivity of developers that are acclimated to your company. They are equipped with all the hard and soft skills embodied by your company</p>
+                <h3>Hire Workplace Ready Talent</h3>
+                <p>Enjoy the immediate productivity of <br>developers that are acclimated to your<br>company. They are equipped with all the<br> hard and soft skills embodied by your <br>company</p>
               </div>
         </div>
     </section>
+
     <!-- ABOUT END -->
+
+    <!-- process START -->
+    <section id="process">
+  
+      <div class="process">
+          <h2>The Next-Generation Hiring Methodology</h2>
+        <div class="process-img" data-aos="fade-up" data-aos-delay="600">
+          <img src="https://d33wubrfki0l68.cloudfront.net/e388e6848133bdb9cf08b89e24e2725b1a589da8/3e654/_next/static/images/smile4-f925763098c3c1ecb30b59e8c8924b61.png" alt="" srcset="" >
+        </div>
+        <div class="process-steps" data-aos="fade-up" data-aos-delay="300">
+          <h1>Tap into technical talent like never before</h1>
+          <p>Whether you’re hiring or upskilling your team, we’re here to develop talent specific to your goals. How do we do that?</p>
+          <button onclick="document.location='www.google.com'" >Learn More</button>
+        </div>
+      </div>
+    </section>
+    <!-- process END -->
     <!-- STUDIES START -->
     <section>
         <div class="studies"></div>
@@ -100,7 +117,9 @@
     <!-- SCRIPT START  -->
     <script src="/main/main.js"></script>
     <script src="https://kit.fontawesome.com/ac87d8aca0.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <!-- SCRIPT END  -->
 </body>
 </html>

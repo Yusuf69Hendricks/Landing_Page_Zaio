@@ -5,6 +5,7 @@ function myFunction() {
     } else {
         x.className = "nav"
     }
+
 }
 
 
@@ -16,6 +17,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("navbar").style.padding = "0";
     document.getElementById("navbar").style.backgroundColor = "#ddd";
+    // document.getElementById("navbar").style.font = "#16325b"
   } else {
     document.getElementById("navbar").style.padding = "0";
     document.getElementById("navbar").style.backgroundColor = "#16325b";
