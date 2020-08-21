@@ -256,11 +256,19 @@ body{
   font-weight: bold;
 }
 
+.process h3{
+  color: #0f2137;
+}
 
+.process p{
+ color: #5d646d;
+ font-weight: bold;
+ padding-bottom: 50px;
+}
 .process-img img,
 .progress-img img{
   width: 100%;
-  margin-top: 275px;
+  margin-top: 75px;
 }
 
 .process-steps,
@@ -270,6 +278,10 @@ body{
    float: left;
    width: 50%;
    text-align: left;
+ }
+
+ .process-steps{
+   padding-left: 200px;
  }
    
  .process:after {
@@ -474,11 +486,12 @@ hr{
   @media screen and (max-width: 991px) {
     
     .links{
-      background-color: ;
-      height: 100%;
+      background-color: white;
+      /* height: 1000vh; */
     }
     .nav.responsive{
-        background-color: white;
+      min-height: 100%;
+       /* background-color: white; */
         position: relative;
     }
 
@@ -495,7 +508,7 @@ hr{
     }
 
     .nav.responsive a:not(.icon){
-      color: white;
+      color: #16325b;
       padding-left: 20px;
       line-height: 30px;
       font-size:20px;
@@ -507,9 +520,12 @@ hr{
       width: 90%;
       text-align: center;
       margin: 0 auto;
-      margin-top: 100px;
+      margin-top: 50px;
+      /* margin-bottom: 50px; */
       background-color: #16325b;
     }
+
+
 
     .nav img{
       margin: 0;
