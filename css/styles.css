@@ -58,8 +58,8 @@ body{
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding-top: 30px;
-    padding-right: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -99,7 +99,7 @@ body{
     color: rgb(255, 255, 255);
     border-radius: 5px;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .nav button:hover{
@@ -126,6 +126,8 @@ body{
 
   .hero2 img{
     margin-top: 100px;
+    width: 100%;
+
   }
 
   .hero1 h1{
@@ -197,14 +199,10 @@ body{
 
 .about{
     width: 100%;
-    /* margin-left: 5%; */
-  
-    /* min-height: 300px; */
-    margin-left: 5%;
-    /* padding-left: %; */
-    /* padding-right: 5%; */
     text-align: center;
     justify-content: center;
+    /* padding-left: 10%; */
+    margin-left: 5%;
 }
 
 #about h2{
@@ -212,6 +210,7 @@ body{
   color: #16325b;
   margin-bottom: 70px;
   font-weight: bold;
+  
 }
 
 .description {
@@ -230,8 +229,13 @@ body{
     color:black;
     font-size: 19px;
     font-weight: bolder;
+    text-align: center;
+    
   }
 
+  .description p{
+    text-align: center;
+  }
   
   .about:after {
     content: "";
@@ -473,7 +477,7 @@ hr{
 /* FOOTER END  */
 
 /* MEDIA QUERIES START */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 980px) {
     .nav a:not(:first-child),.nav button {
       display: none;
     }
@@ -483,7 +487,7 @@ hr{
     }
   }
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 970px) {
     
     .links{
       background-color: white;
@@ -533,7 +537,7 @@ hr{
 
 
 /* hero */
-  @media screen and (max-width: 1119px) {
+  @media screen and (max-width: 980px) {
     .hero1,
     .left,
     .right,
